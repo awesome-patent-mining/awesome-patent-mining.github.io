@@ -1,16 +1,15 @@
 ---
 layout: list
-title: Contact
+title: 联系信息
 cover: false
 menu: true
-order: 7
+order: 5
 ---
 ## Address
-Room 511, Building of Economics and Management,
-Nanjing University of Science and Technology,
-No. 200, Xiaolingwei, Nanjing, China 
+北京市复兴路15号中国科学技术信息研究所119房间
 
 ## Email
-zhangcz [at] njust dot edu [dot] cn 
+squirrel_d [at] 126 [dot] com 
 
+## Wechat
 
