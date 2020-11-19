@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://chengzhizhang.github.io
+url:                   https://awesome-patent-mining.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -16,10 +16,10 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  zh
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                  Chengzhi Zhang
+title:                  陈亮
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -38,11 +38,10 @@ logo:                  /assets/img/me.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                Chengzhi Zhang
+  name:                陈亮
   picture:             /assets/img/me.jpg
   social:
-    github:              chengzhizhang
-
+    github:            awesome-patent-mining
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
