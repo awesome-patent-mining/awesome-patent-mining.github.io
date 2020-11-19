@@ -1,0 +1,61 @@
+phd-students-first:
+  -
+    name: Shuitan Ma
+    url: http://shutian.me/
+    tagline: Citaion recomendattion, Document clustering.
+  -
+    name: Yingyi Zhang
+    url: https://www.researchgate.net/profile/Zhang_Yingyi2 
+    tagline: Keyphrase extraction, Entity extraction and relation discovery.
+  - 
+    name: Chenglei Qin
+    url: https://www.researchgate.net/profile/Qin_Chenglei
+    tagline: Review mining.
+  -
+    name: Bowen Li
+    tagline: Methology in information science.
+  - 
+    name: Heng Zhang
+    url: https://www.researchgate.net/profile/Heng_Zhang118 
+    tagline: Taxonomy generation, Software entity extraction.
+  -
+    name: Yuzhuo Wang
+    url: https://www.researchgate.net/profile/Yuzhuo_Wang7 
+    tagline: Knowledge entity extraction and evaluation.
+  -
+    name: Yi Zhao
+    url: https://www.researchgate.net/profile/Yi_Zhao162   
+    tagline: Scholar profiling.
+  -
+    name: Haixu Xi
+    url: https://www.researchgate.net/profile/Haixu_Xi2
+    tagline: Knowledge entity extraction and evaluation.
+project-students:
+former-phd:
+  -
+    name: Chao Lu
+    url: https://luchao1991.github.io/
+    tagline: "PhD 2019, now Assistant Professor at  Hohai University."
+    description: >
+      Phd Thesis: Identifying Content Features of Domain Emerging Topics and its Application.
+  -
+    name: Qingqing Zhou
+    url: https://www.researchgate.net/profile/Qingqing_Zhou8
+    tagline: "PhD 2018, now Assistant Professor at Nanjing Normal University."
+    description: >
+      Phd Thesis: Book Impact Assessment Based on Multi-source Heterogeneous Data.
+  -
+    name: Xiaolan Wu
+    url: https://www.researchgate.net/profile/Wu_Lan3
+    tagline: "PhD 2018, now Assistant Professor at Nanjing Normal University."
+    description: >
+      Phd Thesis: Finding Interdisciplinary Users on Social Media and its Application.
+  -
+    name: Lei Li
+    url: https://www.researchgate.net/profile/Lei_Li68
+    tagline: "PhD 2018, now Assistant Professor at Beijing Normal University."
+    description: >
+      Phd Thesis: Research on Answer Quality Judgement on Academic Social Q&A Sites.
+      
+
+

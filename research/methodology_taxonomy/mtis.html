@@ -1,0 +1,1071 @@
+﻿<!DOCTYPE html>
+<html style="height: 400%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+   <h1 align="center">Methodology Taxonomy of Information Science in China</h1>
+   <div style="margin-left: 15%;  margin-bottom: 0">
+   <font size="2"><b>Note1:</b> Click on the circle symbol to open or collapse the content.</font>
+   <br>
+   <font size="2"><b>Note2: </b>We select 9 third level categories which include a sufficient number of methodology entities for entity clustering, then build the methodology taxonomy. So there are no subcategories for the remaining 12 third level categories.
+   </font>
+   </div>
+       <div id="container" style="height: 100%"></div>
+       <div align="center">
+         <p>
+         <script type="text/javascript" src="echarts.min.js"></script>
+         <script type="text/javascript">
+ 
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+var data = {
+    "name": "Methodology of information science",
+    "children": [
+        {
+            "name": "Data collection method",
+            "children": [
+                {
+                    "name": "Delphi method"
+                },
+                {
+                    "name": "Questionnaire",
+                    "children": [
+                        {
+                            "name": "Questionnaire",
+                            "children": [
+                                {
+                                    "name": "questionnaire"
+                                },
+                                {
+                                    "name": " questionnaire survey"
+                                },
+                                {
+                                    "name": " pre-survey"
+                                },
+                                {
+                                    "name": " formal questionnaire"
+                                },
+                                {
+                                    "name": " survey questionnaire"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Structural equation analysis",
+                            "children": [
+                                {
+                                    "name": "structural equation models"
+                                },
+                                {
+                                    "name": " regression analysis"
+                                },
+                                {
+                                    "name": " path analysis"
+                                },
+                                {
+                                    "name": " hypothesis testing"
+                                },
+                                {
+                                    "name": " structural equations"
+                                },
+                                {
+                                    "name": " structural equation analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Consistency coefficient",
+                            "children": [
+                                {
+                                    "name": "internal consistency"
+                                },
+                                {
+                                    "name": " cronbach's"
+                                },
+                                {
+                                    "name": " combined confidence"
+                                },
+                                {
+                                    "name": " alpha coefficient"
+                                },
+                                {
+                                    "name": " cronbach's alpha"
+                                },
+                                {
+                                    "name": " cr value"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Investigation and research",
+                            "children": [
+                                {
+                                    "name": "investigation and research"
+                                },
+                                {
+                                    "name": " user surveys"
+                                },
+                                {
+                                    "name": " web surveys"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Principal component analysis",
+                            "children": [
+                                {
+                                    "name": "factor analysis"
+                                },
+                                {
+                                    "name": " principal component analysis"
+                                },
+                                {
+                                    "name": " principal component analysis"
+                                },
+                                {
+                                    "name": " maximum variance method"
+                                },
+                                {
+                                    "name": " factor analysis method"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Social psychology data collection equipment and methods: eye tracker, etc."
+                },
+                {
+                    "name": "Think-aloud"
+                },
+                {
+                    "name": "Computer aided",
+                    "children": [
+                        {
+                            "name": "Emotion model",
+                            "children": [
+                                {
+                                    "name": "emotional index"
+                                },
+                                {
+                                    "name": " GARCH model"
+                                },
+                                {
+                                    "name": " karma-garchx model"
+                                },
+                                {
+                                    "name": " karmax-garch model"
+                                },
+                                {
+                                    "name": " karmax-garch"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Emotion analysis",
+                            "children": [
+                                {
+                                    "name": "sentiment analysis"
+                                },
+                                {
+                                    "name": " machine learning algorithms"
+                                },
+                                {
+                                    "name": " manual methods"
+                                },
+                                {
+                                    "name": " lexicon-based methods"
+                                },
+                                {
+                                    "name": " manual determination"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Weibo data",
+                            "children": [
+                                {
+                                    "name": "Weibo text"
+                                },
+                                {
+                                    "name": " Weibo comments"
+                                },
+                                {
+                                    "name": " retweets"
+                                },
+                                {
+                                    "name": " sina microblog platform"
+                                },
+                                {
+                                    "name": " web crawler software"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SKOS",
+                            "children": [
+                                {
+                                    "name": "skos conversion"
+                                },
+                                {
+                                    "name": " q skos"
+                                },
+                                {
+                                    "name": " lcsh"
+                                },
+                                {
+                                    "name": " skos:pref label"
+                                },
+                                {
+                                    "name": " scope note"
+                                },
+                                {
+                                    "name": " lista narrative word list"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Maximum likelihood estimation",
+                            "children": [
+                                {
+                                    "name": "likelihood function"
+                                },
+                                {
+                                    "name": " AIC"
+                                },
+                                {
+                                    "name": " least squares"
+                                },
+                                {
+                                    "name": " GMM"
+                                },
+                                {
+                                    "name": " great likelihood estimation"
+                                },
+                                {
+                                    "name": " regression analysis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Weblog method"
+                },
+                {
+                    "name": "Interview method"
+                }
+            ]
+        },
+        {
+            "name": "Data analysis method",
+            "children": [
+                {
+                    "name": "Bibliometric method",
+                    "children": [
+                        {
+                            "name": "Database resources",
+                            "children": [
+                                {
+                                    "name": "CSSCI"
+                                },
+                                {
+                                    "name": " Science"
+                                },
+                                {
+                                    "name": " WOS"
+                                },
+                                {
+                                    "name": " Web of Science"
+                                },
+                                {
+                                    "name": " SSCI"
+                                },
+                                {
+                                    "name": " A&HCI"
+                                },
+                                {
+                                    "name": " WOS database"
+                                },
+                                {
+                                    "name": " SCI database"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Impact indicators",
+                            "children": [
+                                {
+                                    "name": "number of articles published"
+                                },
+                                {
+                                    "name": " h-index"
+                                },
+                                {
+                                    "name": " academic impact"
+                                },
+                                {
+                                    "name": " zero citation rate"
+                                },
+                                {
+                                    "name": " total citations"
+                                },
+                                {
+                                    "name": " number of citations"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Metrological analysis",
+                            "children": [
+                                {
+                                    "name": "metrology"
+                                },
+                                {
+                                    "name": " metrological analysis"
+                                },
+                                {
+                                    "name": " ACA methods"
+                                },
+                                {
+                                    "name": " citation analysis methods"
+                                },
+                                {
+                                    "name": " co-citation analysis"
+                                },
+                                {
+                                    "name": " bibliometric methods"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Chinese journal resources",
+                            "children": [
+                                {
+                                    "name": "New Technology of Library and Information Service"
+                                },
+                                {
+                                    "name": " Journal of Intelligence"
+                                },
+                                {
+                                    "name": " Document"
+                                },
+                                {
+                                    "name": "Informaiton & Knowledge"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Computational mechanics",
+                            "children": [
+                                {
+                                    "name": "solid mechanics"
+                                },
+                                {
+                                    "name": " computational mechanics"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Systematic literature review"
+                },
+                {
+                    "name": "Experimental method",
+                    "children": [
+                        {
+                            "name": "Experiment",
+                            "children": [
+                                {
+                                    "name": "experiment"
+                                },
+                                {
+                                    "name": " comparative experiment"
+                                },
+                                {
+                                    "name": " experimental validation"
+                                },
+                                {
+                                    "name": " simulation experiment"
+                                },
+                                {
+                                    "name": " experimental comparison"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Assessment indicators",
+                            "children": [
+                                {
+                                    "name": "recall rate"
+                                },
+                                {
+                                    "name": " F-value"
+                                },
+                                {
+                                    "name": " check rate"
+                                },
+                                {
+                                    "name": " correct rate"
+                                },
+                                {
+                                    "name": " classification accuracy rate"
+                                },
+                                {
+                                    "name": " average accuracy rate"
+                                },
+                                {
+                                    "name": " accuracy rate"
+                                },
+                                {
+                                    "name": " F1 value"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Classification model",
+                            "children": [
+                                {
+                                    "name": "SVM"
+                                },
+                                {
+                                    "name": " support vector machine"
+                                },
+                                {
+                                    "name": " classification model"
+                                },
+                                {
+                                    "name": " Naive Bayes"
+                                },
+                                {
+                                    "name": " SVM classifier"
+                                },
+                                {
+                                    "name": " SVM model"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Statistical learning model",
+                            "children": [
+                                {
+                                    "name": "CRF"
+                                },
+                                {
+                                    "name": " Conditional Random Airport Model"
+                                },
+                                {
+                                    "name": " CRFS"
+                                },
+                                {
+                                    "name": " Conditional Random Airport"
+                                },
+                                {
+                                    "name": " HMM"
+                                },
+                                {
+                                    "name": " Maximum Entropy Model"
+                                },
+                                {
+                                    "name": " CRF Model"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Domain ontology",
+                            "children": [
+                                {
+                                    "name": "domain ontology"
+                                },
+                                {
+                                    "name": " ontological approaches"
+                                },
+                                {
+                                    "name": " ontologicalization"
+                                },
+                                {
+                                    "name": " semantic model"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Meta-analysis method"
+                },
+                {
+                    "name": "Comparative research",
+                    "children": [
+                        {
+                            "name": "Tag ontology model",
+                            "children": [
+                                {
+                                    "name": "SCOT"
+                                },
+                                {
+                                    "name": " MOAT"
+                                },
+                                {
+                                    "name": " tag ontology model"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Evaluation method",
+                            "children": [
+                                {
+                                    "name": "topsis"
+                                },
+                                {
+                                    "name": " multi-attribute evaluation method"
+                                },
+                                {
+                                    "name": " entropy weighting method"
+                                },
+                                {
+                                    "name": " linear weighting"
+                                },
+                                {
+                                    "name": " linear weighted evaluation"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Comparative experiment",
+                            "children": [
+                                {
+                                    "name": "opinion mining method"
+                                },
+                                {
+                                    "name": " feature reduction method"
+                                },
+                                {
+                                    "name": " unbalanced data classification method"
+                                },
+                                {
+                                    "name": " NB"
+                                },
+                                {
+                                    "name": " comparative experiment"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Conceptual model",
+                            "children": [
+                                {
+                                    "name": "community classification method"
+                                },
+                                {
+                                    "name": " ontological conceptual model"
+                                },
+                                {
+                                    "name": " concept lattice"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Linear fitting",
+                            "children": [
+                                {
+                                    "name": "linear fitting"
+                                },
+                                {
+                                    "name": " normalcy test"
+                                },
+                                {
+                                    "name": " matrix scatterplot"
+                                },
+                                {
+                                    "name": " k-s sample normalcy test"
+                                },
+                                {
+                                    "name": " q-q plot"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Case analysis"
+                },
+                {
+                    "name": "Hermeneutics",
+                    "children": [
+                        {
+                            "name": "Ontology",
+                            "children": [
+                                {
+                                    "name": "ontology"
+                                },
+                                {
+                                    "name": " semantic association"
+                                },
+                                {
+                                    "name": " ontology"
+                                },
+                                {
+                                    "name": " ontology base"
+                                },
+                                {
+                                    "name": " bridge ontology"
+                                },
+                                {
+                                    "name": " ontology model"
+                                },
+                                {
+                                    "name": " semantic web"
+                                },
+                                {
+                                    "name": " ontology techniques"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Knowledge base resources",
+                            "children": [
+                                {
+                                    "name": "SKOS"
+                                },
+                                {
+                                    "name": " FOAF"
+                                },
+                                {
+                                    "name": " Dublin Core Metadata"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ESM method",
+                            "children": [
+                                {
+                                    "name": "ESM"
+                                },
+                                {
+                                    "name": " ESM Methods"
+                                },
+                                {
+                                    "name": " MESM Tools"
+                                },
+                                {
+                                    "name": " MESM Methods"
+                                },
+                                {
+                                    "name": " Mobile Experience Sampling"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Knowledge base",
+                            "children": [
+                                {
+                                    "name": "Common sense knowledge base"
+                                },
+                                {
+                                    "name": " empirical knowledge base"
+                                },
+                                {
+                                    "name": " emergency decision-making for emergencies"
+                                },
+                                {
+                                    "name": " emergency response knowledge base"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ontology tools",
+                            "children": [
+                                {
+                                    "name": "jena"
+                                },
+                                {
+                                    "name": " ontology language"
+                                },
+                                {
+                                    "name": " rdf diagram"
+                                },
+                                {
+                                    "name": " sparql"
+                                },
+                                {
+                                    "name": " web service"
+                                },
+                                {
+                                    "name": " first order predicate logic"
+                                },
+                                {
+                                    "name": " xmlschema"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Historical analysis"
+                },
+                {
+                    "name": "Social network analysis",
+                    "children": [
+                        {
+                            "name": "Centrality indicators",
+                            "children": [
+                                {
+                                    "name": "centrality"
+                                },
+                                {
+                                    "name": " intermediate centrality"
+                                },
+                                {
+                                    "name": " proximity centrality"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social network analysis",
+                            "children": [
+                                {
+                                    "name": "social network analysis"
+                                },
+                                {
+                                    "name": " social network analysis method"
+                                },
+                                {
+                                    "name": " graph theory"
+                                },
+                                {
+                                    "name": " network analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Visualization tools",
+                            "children": [
+                                {
+                                    "name": "ucinet"
+                                },
+                                {
+                                    "name": " network diagram"
+                                },
+                                {
+                                    "name": " network visualization"
+                                },
+                                {
+                                    "name": " ucinet software"
+                                },
+                                {
+                                    "name": " pajek"
+                                },
+                                {
+                                    "name": " netdraw software"
+                                },
+                                {
+                                    "name": " pajek software"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Network indicators",
+                            "children": [
+                                {
+                                    "name": "network density"
+                                },
+                                {
+                                    "name": " average path length"
+                                },
+                                {
+                                    "name": " average agglomeration factor"
+                                },
+                                {
+                                    "name": " cohesion index"
+                                },
+                                {
+                                    "name": " average shortest path length"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Coupling analysis",
+                            "children": [
+                                {
+                                    "name": "coupling"
+                                },
+                                {
+                                    "name": " literature coupling"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Content analysis"
+                },
+                {
+                    "name": "Statistical method",
+                    "children": [
+                        {
+                            "name": "Regression analysis",
+                            "children": [
+                                {
+                                    "name": "regression"
+                                },
+                                {
+                                    "name": " regression model"
+                                },
+                                {
+                                    "name": " normal distribution"
+                                },
+                                {
+                                    "name": " SPSS software"
+                                },
+                                {
+                                    "name": " descriptive statistics"
+                                },
+                                {
+                                    "name": " significance tests"
+                                },
+                                {
+                                    "name": " linear regression"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Impact model",
+                            "children": [
+                                {
+                                    "name": "citation impact"
+                                },
+                                {
+                                    "name": " non-iteration weighted citation model"
+                                },
+                                {
+                                    "name": " weighted page rank"
+                                },
+                                {
+                                    "name": " weighted page rank_d"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PC similarity",
+                            "children": [
+                                {
+                                    "name": "PC similarity"
+                                },
+                                {
+                                    "name": " benchmark collaborative filtering recommendation model"
+                                },
+                                {
+                                    "name": " social network correction factor"
+                                },
+                                {
+                                    "name": " social network distance"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Interdisciplinarity",
+                            "children": [
+                                {
+                                    "name": "intersectionality of disciplines"
+                                },
+                                {
+                                    "name": " degree of variation"
+                                },
+                                {
+                                    "name": " domain convergence"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Foreign journal resources",
+                            "children": [
+                                {
+                                    "name": "Journal of the Association for Information Science and Technology"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Grounded theory"
+                },
+                {
+                    "name": "Visualization analysis",
+                    "children": [
+                        {
+                            "name": "Co-citation analysis",
+                            "children": [
+                                {
+                                    "name": "co-citation"
+                                },
+                                {
+                                    "name": " citespace"
+                                },
+                                {
+                                    "name": " co-citation analysis"
+                                },
+                                {
+                                    "name": " citespace software"
+                                },
+                                {
+                                    "name": " information visualization technology"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Statistical Analysis",
+                            "children": [
+                                {
+                                    "name": "clustering analysis"
+                                },
+                                {
+                                    "name": " multidimensional scale analysis"
+                                },
+                                {
+                                    "name": " graph analysis"
+                                },
+                                {
+                                    "name": " multivariate statistics"
+                                },
+                                {
+                                    "name": " correlation analysis"
+                                },
+                                {
+                                    "name": " factor analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Community discovery algorithm",
+                            "children": [
+                                {
+                                    "name": "MDS"
+                                },
+                                {
+                                    "name": " word co-presentation method"
+                                },
+                                {
+                                    "name": " spectral method"
+                                },
+                                {
+                                    "name": " SOM"
+                                },
+                                {
+                                    "name": " BIRCH algorithm"
+                                },
+                                {
+                                    "name": " greed algorithm"
+                                },
+                                {
+                                    "name": " association discovery algorithm"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Snomed",
+                            "children": [
+                                {
+                                    "name": "snomed"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Network analysis",
+                            "children": [
+                                {
+                                    "name": "K-core"
+                                },
+                                {
+                                    "name": " professional evolutionary mapping"
+                                },
+                                {
+                                    "name": " density analysis"
+                                },
+                                {
+                                    "name": " network density analysis"
+                                },
+                                {
+                                    "name": " dynamic network analysis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Other"
+                }
+            ]
+        }
+    ]
+};
+
+    var option  = {
+        tooltip: {
+            trigger: 'item',
+            triggerOn: 'mousemove'
+        },
+        series: [
+            {
+                type: 'tree',
+
+                data: [data],
+
+                top: '1%',
+                left: '13%',
+                bottom: '1%',
+                right: '11%',
+
+                symbolSize: 8,
+                initialTreeDepth: 3,
+
+                label: {
+                    position: 'left',
+                    verticalAlign: 'middle',
+                    align: 'right',
+                    fontSize: 10
+                },
+
+                leaves: {
+                    label: {
+                        position: 'right',
+                        verticalAlign: 'middle',
+                        align: 'left'
+                    }
+                },
+
+                expandAndCollapse: true,
+                animationDuration: 550,
+                animationDurationUpdate: 750,
+                initialTreeDepth: 4,
+            }
+        ]
+    };
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+var container = document.getElementById('container');
+myChart.on('click', function (params) {
+    if (params.componentType === 'series') {
+        // 点击到了 series 上
+        if (!params.value) {
+            // 点击的节点有子分支（可点开）
+            var elesArr = Array.from(new Set(myChart._chartsViews[0]._data._graphicEls));
+            var height = 200; // 这里限制最小高
+            var currentHeight = 10 * (elesArr.length - 1) || 10; // 每项10px
+            var newHeight = Math.max(currentHeight, height);
+            container.style.height = newHeight + 'px';
+            myChart.resize();
+        }
+    }
+});
+         </script>
+       
+       <font size="2">Heng Zhang, Chengzhi Zhang*. Using Full-text Content of Academic Articles to Build a Methodology Taxonomy of Information Science in China. <em><strong>Knowledge Organization</strong></em>, 2021. (in press)</font></a> </p>
+         <p>&nbsp;</p>
+       </div>
+   </body>
+</html>

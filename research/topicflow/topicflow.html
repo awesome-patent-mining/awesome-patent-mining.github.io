@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TopicFlow</title>
+
+<script type="text/javascript" src="scripts/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-1.9.1.custom.min.js"></script>
+
+<script type="text/javascript" src="scripts/json2.js"></script>
+<script type="text/javascript" src="scripts/jqcloud-0.2.9.min.js"></script>
+<script type="text/javascript" src="scripts/d3/d3.v3.js"></script>
+<script type="text/javascript" src="scripts/d3/topicflow.js"></script>
+<script type="text/javascript" src="scripts/external.js"></script>
+
+<script type="text/javascript" src="scripts/controller.js"></script>
+<script type="text/javascript" src="scripts/Tweet.js"></script>
+<script type="text/javascript" src="scripts/Bin.js"></script>
+<script type="text/javascript" src="scripts/TopicModel.js"></script>
+<script type="text/javascript" src="scripts/TopicSimilarityMap.js"></script>
+
+<script src="data/ModernFamily/Tweet.json"></script>
+<script src="data/ModernFamily/Bins.json"></script>
+<script src ="data/ModernFamily/TopicSimilarity.json"></script>
+
+<script src="data/Debate/Tweet.json"></script>
+<script src="data/Debate/Bins.json"></script>
+<script src ="data/Debate/TopicSimilarity.json"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="css/960grid.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/smoothness/jquery-ui.css" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,400' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/TopicFlow.css">
+<link type="text/css" rel="stylesheet" href="css/jqcloud.css" />
+</head>
+
+<body>
+<!-- LOADING DIV -->
+<div id="loader" class="loader" style="display:none">
+	<img src="images/ajax-loader.gif"></img>
+</div>
+
+<!-- GREYED BACKGROUND -->
+<div id="dataset-popup" class="dataset-popup">
+</div>
+
+<!-- DATASET SELECTOR DIV -->
+<div class="absolute-div">
+	<div id="selectbox_datasets">	
+		<div id="title" class="panel_name">Select a dataset... <span id="close_select" class="title_link">Close</span></div>
+		<ul id="popup_data_selector">
+			<li id="ModernFamily"><a href="#">Weibo-H7N9</a></li>
+			<li id="debate"><a href="#">Twitter-H7N9</a></li>
+			
+			<!--<li id="load_new"><a href="#">Load new...</a></li>-->
+		</ul>
+	</div>
+</div>
+
+<!-- ABOUT DIV -->
+<div class="absolute-div">
+	<div id="about-popup" style="display:none;">	
+		<div id="title" class="panel_name">About TopicFlow <span id="close_about" class="title_link">Close</span></div>
+		<div id="about-div" class="panel_contents">
+			TopicFlow is a tool that visualizes
+the results of automatic topic detection and topic alignment
+between sets of tweets over time. <br />
+<br />
+This tool was a team project for the Fall 2012 semester, class CMSC 734 Information Visualization, 
+taught by Prof. Ben Shneiderman for the Department of Computer Science at the University of Maryland<br>
+Team members:
+<ul>
+	<li> Jianyu Li</li>
+	<li> <a href="http://www.cs.umd.edu/~maliks/" target="_blank">Sana Malik</a></li>
+	<li> <a href="http://www.heypano.com">Panagis (Pano) Papadatos</a></li>
+	<li> Alison Smith</li>
+</ul>
+More information:
+<ul>
+	<li> <a href="http://www.heypano.com/topicflow/topicflowv2.mp4" target="_blank">Video Tutorial</a> (mp4)</li>
+	<li> <a href="https://wiki.cs.umd.edu/cmsc734_f12/images/0/05/TopicFlowFinalReport2.pdf" target="_blank">Paper</a> (PDF)</li>
+</ul>
+</div>
+	</div>
+</div>
+
+
+<!-- TOOLTIP DIV -->
+<div id="tt" style="display:none;">
+	<div id="tttop"> </div>
+	<div id="ttcont"> </div>
+	<div id="ttbot"> </div>
+</div>
+
+<!-- TOPIC SIMILARITY DIV -->
+<div id="similarity_holder" style="display:none;">
+	<div id="topicSimilarity">
+		<div class="similarity_panel"><div class="title" id="t1_title"></div><div id="t1"></div></div>
+		<div class="similarity_panel"><div class="title" id="t2_title"></div><div id="t2"></div></div>
+	</div>
+</div>
+
+<!-- MAIN PAGE DIV -->
+	<div class="container_12">
+		<div class="header">
+			<span class="grid_8 alpha" id="product_title"><span class="dark">Topic</span><span class="light">Flow</span><span id="dataset_name"></span></span>
+			<span class="grid_4 omega" id="data_selector_panel">
+				<button id="data_selector">Change Dataset</button>
+				<button id="about">About TopicFlow</button>
+			</span>
+		</div>
+		<div class="clear"></div>
+		<div class="main_panel">
+		<div class="grid_3 alpha viz_panel" id="topic_list_panel">
+			<div id="filter_holder">
+				<div class="panel_name"><span class="panel_title">Filters</span><span id="reset_filters" class="title_link">Reset Filters</div>
+				<div class="panel_contents">
+					<label for="topic_size">Topic Size: </label> <span id="topic_size"></span>
+					<div id="topic_size_slider"></div>
+				
+					<label for="topic_type">Topic Type: </label> <span id="topic_type"></span>
+					<fieldset id="topic_type_checkboxes">
+						<span><input type="checkbox" class="checkall" value="all" checked="yes"/> <span class="all type_option">Select/Unselect All</span></span><br />
+						<span class="emerging type_option"><input type="checkbox" class="topic_type" value="emerging" checked="yes"/> Emerging</span>
+						<span class="continuing type_option"><input type="checkbox" class="topic_type" value="continuing" checked="yes"/> Continuing</span><br />
+						<span class="ending type_option"><input type="checkbox" class="topic_type" value="ending" checked="yes"/> Ending</span>
+						<span class="standalone type_option"><input type="checkbox" class="topic_type" value="standalone" checked="yes"/> Standalone</span>
+					</fieldset>
+
+					<label for="similarity_weight">Similarity Weight: </label> <span id="similarity_weight"></span>
+					<div id="similarity_weight_slider"></div>
+				
+				</div>
+			</div>
+			
+			<div class="panel_name"><span class="panel_title" id="topics_title">Topics</span><span class="title_link" id="view_all">Deselect Topic</span></div>
+			<div class="panel_contents">
+				<center><input type="text" title="Search for word..." id="topic_searchbox" /></center>
+				<ul id="topic_list"></ul>
+			</div>
+		</div>
+		<div class="grid_6 viz_panel" id="flow_viz_panel">
+			<div class="panel_name"><span class="panel_title">Topic Over Time Similarity</span></div>
+			<div class="panel_contents">
+				<div id="flow_viz"></div>
+			</div>
+		</div>
+		<!--
+		<div class="grid_3 omega viz_panel" id="tweet_list_panel">
+			<div class="panel_name" id="tweet_list_title">Tweets</div>
+			<div class="panel_contents">
+				<div id="tweet_list"></div>
+			</div>
+		</div>
+		-->
+		</div>
+		</div>
+	</div>
+</body>
+</html>

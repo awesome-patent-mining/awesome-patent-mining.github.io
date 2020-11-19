@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<title>Hierarchical Clustering Results</title>
+	<style type="text/css">
+		html{height:100%;margin:0;}
+		body{width:100%; height:100%;margin:0;}
+	.reference {
+	font-size: 12px;
+}
+    .Notes {
+	font-size: 12px;
+}
+    </style>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="position:absolute; top:470px; width:1340px; height:490px"></div>
+<div id="main2" style="position: absolute; top: 56px; width: 1340px; height: 490px; left: 4px;">
+      <div align="center">
+        <p>&nbsp;</p>
+  </div>
+</div>
+	
+	<div><img id='img' src='images/tree11.png' style=" position:absolute; top:535px; left:200px;width:300px; height:415px"></div>
+<div><img id='img2' src='images/tree22.png' style=" position:absolute; top:92px; left:196px;width:300px; height:415px"></div>
+	
+    
+    
+
+    <p>
+      <!-- ECharts单文件引入 -->
+      <script src="echarts-all.js"></script>
+      <script src="require.js"></script>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="Notes">Note: Click on the &quot;<em>Level N</em>&quot; symbol on the left to find the clustering result.    </span></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="reference">&nbsp;Chengzhi Zhang, Zijing Yue, Qingqing Zhou, Shutian Ma, Zike Zhang. Using   social media to explore regional cuisine preferences in China. <strong><em>Online Information Review</em></strong>. 2019, 43(7): 1098-1114. <a href="https://doi.org/10.1108/OIR-08-2018-0244">[doi]</a> </span></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp; </p>
+       
+<script type="text/javascript"> 
+		 
+         var myChart1 = echarts.init(document.getElementById('main')); 
+		 
+		 var option1 = {
+			    
+				title:{
+					subtext:'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2.Hierarchical Clustering Results based on Dietary Preferences',
+					subtextStyle:{
+						color:"black",
+						fontSize:16,
+					},
+					x:'center',y:'top'
+				},
+				legend:{
+					orient: 'vertical',
+					x:55,y:75,itemWidth:8,itemHeight:6,itemGap:10.5,
+					borderWidth:0.8,borderColor:'black',
+					data:['Level 16(1 category)','Level 15(2 categories)','Level 14(3 categories)','Level 13(4 categories)','Level 12(6 categories)','Level 11(7 categories)','Level 10(8 categories)','Level 9(9 categories)','Level 8(10 categories)','Level 7(11 categories)','Level 6(13 categories)','Level 5(14 categories)','Level 4(16 categories)','Level 3(17 categories)','Level 2(18 categories)','Level 1(19 categories)'],
+					selected:{
+					'Level 15(2 categories)':false,'Level 14(3 categories)':false,'Level 13(4 categories)':false,'Level 12(6 categories)':false,'Level 11(7 categories)':false,'Level 10(8 categories)':false,'Level 9(9 categories)':false,'Level 8(10 categories)':false,'Level 7(11 categories)':false,'Level 6(13 categories)':false,'Level 5(14 categories)':false,'Level 4(16 categories)':false,'Level 3(17 categories)':false,'Level 2(18 categories)':false,'Level 1(19 categories)':false},
+					selectedMode:'single',
+				},
+				dataRange: {
+					show:false,
+					//min: 0,
+					//max: 65000,
+					x: 100,
+					y: 500,
+					itemWidth:16,
+					itemHeight:12,
+					splitList: [
+					{start:20,end: 21,label:'21',color:'Olive'},
+					{start:19,end: 20,label:'20',color:'Silver'},
+					{start:18,end: 19,label:'19',color:'Indigo'},
+					{start:17,end: 18,label:'18',color:'maroon'},
+					{start:16,end: 17,label:'17',color:'Turquoise'},
+					{start:15,end: 16,label:'16',color:'white'},
+					{start: 14,end: 15,label:'15',color:'red'},
+					{start: 13,end: 14.5,label:'14',color:'blue'},
+					{start: 12, end: 13,label:'13',color:'green'},
+					{start: 11, end: 12,label:'12', color:'orange'},
+					{start: 10, end: 11,label:'11',color:'yellow'},
+					{start: 9, end: 10,label:'10',color:'purple'},
+					{start: 8, end: 9,label:'9',color:'lightblue'},
+					{start: 7, end: 8,label:'8',color:'brown'},
+					{start: 6, end: 7,label:'7',color:'pink'},
+					{start: 5, end: 6,label:'6',color:'wheat'},
+					{start: 4, end: 5,label:'5',color:'gray'},
+					{start: 3, end: 4,label:'4',color:'tomato'},
+					{start: 2, end: 3,label:'3',color:'tan'},
+					{start: 1, end: 2,label:'2',color:'lightgreen'},
+					{end: 1.5,label:'1',color:'green'}
+					],
+					textStyle:{
+						fontWeight:'bold'
+					},
+				},
+                series: [
+				{
+					name:'Level 15(2 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:1},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//2
+				{
+					name:'Level 16(1 category)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+						emphasis:{label:{show:true}}
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:1},
+						{name:'Xinjiang',value:1},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//1
+				{
+					name:'Level 14(3 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//3
+				{
+					name:'Level 13(4 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//4
+				/*{
+					name:'Five Categories',
+                    type: 'map',
+					mapLocation:{x:0,y:'center',width:'65%',hight:'65%'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:6},
+						{name:'Beijing',value:6},
+						{name:'Jilin',value:6},
+						{name:'Heilongjiang',value:6},
+						{name:'Liaoning',value:6},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},5*/
+				{
+					name:'Level 12(6 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:6},
+						{name:'Beijing',value:6},
+						{name:'Jilin',value:6},
+						{name:'Heilongjiang',value:6},
+						{name:'Liaoning',value:6},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//6
+				{
+					name:'Level 11(7 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:6},
+						{name:'Beijing',value:6},
+						{name:'Jilin',value:6},
+						{name:'Heilongjiang',value:6},
+						{name:'Liaoning',value:6},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//7
+				{
+					name:'Level 10(8 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:8},
+						{name:'Beijing',value:8},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//8
+				{
+					name:'Level 9(9 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:9},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:8},
+						{name:'Beijing',value:8},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//9
+				{
+					name:'Level 8(10 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:9},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:8},
+						{name:'Beijing',value:8},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//10
+				{
+					name:'Level 7(11 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:9},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:6},
+						{name:'Shandong',value:11},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//11
+				{
+					name:'Level 6(13 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:12},
+						{name:'Guizhou',value:12},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:9},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:13},
+						{name:'Shandong',value:11},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//13
+				{
+					name:'Level 5(14 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:12},
+						{name:'Guizhou',value:12},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:9},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:13},
+						{name:'Shandong',value:14},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//14
+				{
+					name:'Level 4(16 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:12},
+						{name:'Guizhou',value:12},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:9},
+						{name:'Guangdong',value:16},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:17},
+						{name:'Shanxi',value:13},
+						{name:'Shandong',value:14},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//16
+				{
+					name:'Level 3(17 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:12},
+						{name:'Guizhou',value:12},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:9},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:18},
+						{name:'Guangdong',value:16},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:17},
+						{name:'Shanxi',value:13},
+						{name:'Shandong',value:14},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//17
+				{
+					name:'Level 2(18 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:12},
+						{name:'Guizhou',value:12},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:19},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:18},
+						{name:'Guangdong',value:16},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:17},
+						{name:'Shanxi',value:13},
+						{name:'Shandong',value:14},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//18
+				{
+					name:'Level 1(19 categories)',
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					
+					roam: false,
+                    itemStyle: {
+                        normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{
+								show: true,//显示省份标签
+								textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}//省份标签字体颜色
+							}   
+                        }, 
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:20},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:12},
+						{name:'Guizhou',value:12},
+						{name:'Anhui',value:10},
+						{name:'Jiangsu',value:19},
+						{name:'Shanghai',value:9},
+						{name:'Zhejiang',value:18},
+						{name:'Guangdong',value:16},
+						{name:'Hongkong',value:7},
+						{name:'Sichuan',value:5},
+						{name:'Chongqing',value:5},
+						{name:'Ningxia',value:6},
+						{name:'Shaanxi',value:6},
+						{name:'Gansu',value:6},
+						{name:'Qinghai',value:6},
+						{name:'Henan',value:17},
+						{name:'Shanxi',value:13},
+						{name:'Shandong',value:14},
+						{name:'Beijing',value:11},
+						{name:'Jilin',value:8},
+						{name:'Heilongjiang',value:8},
+						{name:'Liaoning',value:8},
+						{name:'Hubei',value:4},
+						{name:'Fujian',value:3},
+						{name:'Xinjiang',value:2},
+						{name:'Macao',value:15},//其他地区
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//19
+				],
+		 };
+		 
+			 
+		 myChart1.setOption(option1,true);
+		
+		
+		 var myChart2 = echarts.init(document.getElementById('main2')); 
+		 var option2 = {
+			 //tooltip:{trigger:'item'},
+				title:{
+					text:'Visualization of Hierarchical Clustering Results of Regions',
+					subtext:'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.Hierarchical Clustering Results based on Ingredients Usage',
+					subtextStyle:{
+						color:"black",
+						fontSize:16,
+					},
+					textStyle:{
+						color:"black",
+						fontSize:24,
+					},
+					x:'center',y:'top'
+					},
+				legend:{
+					orient: 'vertical',
+					x:55,y:65,itemWidth:8,itemHeight:8,
+					borderWidth:0.8,borderColor:'black',itemGap:15,
+					data:['Level 12(1 category)','Level 11(2 categories)','Level 10(3 categories)','Level 9(4 categories)','Level 8(5 categories)','Level 7(6 categories)','Level 6(8 categories)','Level 5(9 categories)','Level 4(11 categories)','Level 3(13 categories)','Level 2(16 categories)','Level 1(19 categories)'],
+					selected:{
+					'Level 11(2 categories)':false,'Level 10(3 categories)':false,'Level 9(4 categories)':false,'Level 8(5 categories)':false,'Level 7(6 categories)':false,'Level 6(8 categories)':false,'Level 5(9 categories)':false,'Level 4(11 categories)':false,'Level 3(13 categories)':false,'Level 2(16 categories)':false,'Level 1(19 categories)':false},
+					selectedMode:'single',
+				},
+				dataRange: {
+					show:false,
+					//min: 0,
+					//max: 65000,
+					x: 100,
+					y: 500,
+					itemWidth:16,
+					itemHeight:12,
+					splitList: [
+					{start:20,end: 21,label:'21',color:'Olive'},
+					{start:19,end: 20,label:'20',color:'Silver'},
+					{start:18,end: 19,label:'19',color:'Indigo'},
+					{start:17,end: 18,label:'18',color:'maroon'},
+					{start:16,end: 17,label:'17',color:'Turquoise'},
+					{start:15,end: 16,label:'16',color:'white'},
+					{start: 14,end: 15,label:'15',color:'red'},
+					{start: 13,end: 14.5,label:'14',color:'blue'},
+					{start: 12, end: 13,label:'13',color:'green'},
+					{start: 11, end: 12,label:'12', color:'orange'},
+					{start: 10, end: 11,label:'11',color:'yellow'},
+					{start: 9, end: 10,label:'10',color:'purple'},
+					{start: 8, end: 9,label:'9',color:'lightblue'},
+					{start: 7, end: 8,label:'8',color:'brown'},
+					{start: 6, end: 7,label:'7',color:'pink'},
+					{start: 5, end: 6,label:'6',color:'wheat'},
+					{start: 4, end: 5,label:'5',color:'gray'},
+					{start: 3, end: 4,label:'4',color:'tomato'},
+					{start: 2, end: 3,label:'3',color:'tan'},
+					{start: 1, end: 2,label:'2',color:'lightgreen'},
+					{end: 1.5,label:'1',color:'green'}
+					],
+					textStyle:{fontWeight:'bold'},
+				},
+                series: [
+				{
+					name:'Level 12(1 category)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:1},
+						{name:'Guizhou',value:1},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:1},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:1},
+						{name:'Xinjiang',value:1},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//1
+				{
+					name:'Level 11(2 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:2},
+						{name:'Guizhou',value:2},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:1},
+						{name:'Xinjiang',value:1},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//2
+				{
+					name:'Level 10(3 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:1},
+						{name:'Jiangsu',value:1},
+						{name:'Shanghai',value:1},
+						{name:'Zhejiang',value:1},
+						{name:'Guangdong',value:1},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:1},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:1},
+						{name:'Xinjiang',value:1},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//3
+				
+				{
+					name:'Level 9(4 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:4},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:4},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:4},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:4},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:4},
+						{name:'Xinjiang',value:1},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//4
+				{
+					name:'Level 8(5 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:4},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:4},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:4},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:4},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:4},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//5
+				{
+					name:'Level 7(6 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:1},
+						{name:'Jiangxi',value:1},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:4},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:4},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:4},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:1},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:1},
+						{name:'Fujian',value:4},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//6
+				{
+					name:'Level 6(8 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:8},
+						{name:'Jiangxi',value:8},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:4},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:7},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:8},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:8},
+						{name:'Fujian',value:7},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//8
+				{
+					name:'Level 5(9 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:8},
+						{name:'Jiangxi',value:8},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:4},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:7},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:9},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:8},
+						{name:'Fujian',value:7},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//9
+				{
+					name:'Level 4(11 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:8},
+						{name:'Jiangxi',value:8},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:4},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:11},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:1},
+						{name:'Chongqing',value:1},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:9},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:10},
+						{name:'Fujian',value:7},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//11
+				{
+					name:'Level 3(13 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:8},
+						{name:'Jiangxi',value:8},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:13},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:11},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:12},
+						{name:'Chongqing',value:12},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:9},
+						{name:'Shandong',value:1},
+						{name:'Beijing',value:1},
+						{name:'Jilin',value:1},
+						{name:'Heilongjiang',value:1},
+						{name:'Liaoning',value:1},
+						{name:'Hubei',value:10},
+						{name:'Fujian',value:7},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//13
+				{
+					name:'Level 2(16 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:8},
+						{name:'Jiangxi',value:17},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:13},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:11},
+						{name:'Zhejiang',value:4},
+						{name:'Guangdong',value:7},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:12},
+						{name:'Chongqing',value:12},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:9},
+						{name:'Shandong',value:14},
+						{name:'Beijing',value:14},
+						{name:'Jilin',value:16},
+						{name:'Heilongjiang',value:16},
+						{name:'Liaoning',value:16},
+						{name:'Hubei',value:10},
+						{name:'Fujian',value:7},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//16
+				{
+					name:'Level 1(19 categories)',
+					showLegendSymbol:false,
+                    type: 'map',
+					mapLocation:{x:'50%',y:'35',width:'550'},
+                    mapType: 'china',
+					roam: false,
+                    itemStyle: {normal: {
+							borderColor:'grey',//边框颜色
+							borderWidth:0.5,//线宽
+							label:{show: true,textStyle:{color:"black",fontWeight:'bold',fontFamily:'Calibri'}}},
+					},
+					//分类
+					data:[
+						{name:'Hunan',value:8},
+						{name:'Jiangxi',value:17},
+						{name:'Yunnan',value:3},
+						{name:'Guizhou',value:3},
+						{name:'Anhui',value:13},
+						{name:'Jiangsu',value:4},
+						{name:'Shanghai',value:11},
+						{name:'Zhejiang',value:19},
+						{name:'Guangdong',value:20},
+						{name:'Hongkong',value:2},
+						{name:'Sichuan',value:12},
+						{name:'Chongqing',value:12},
+						{name:'Ningxia',value:1},
+						{name:'Shaanxi',value:1},
+						{name:'Gansu',value:1},
+						{name:'Qinghai',value:1},
+						{name:'Henan',value:6},
+						{name:'Shanxi',value:9},
+						{name:'Shandong',value:18},
+						{name:'Beijing',value:14},
+						{name:'Jilin',value:16},
+						{name:'Heilongjiang',value:16},
+						{name:'Liaoning',value:16},
+						{name:'Hubei',value:10},
+						{name:'Fujian',value:7},
+						{name:'Xinjiang',value:5},
+						{name:'Macao',value:15},
+						{name:'Taiwan',value:15},
+						{name:'Inner Mongolia',value:15},
+						{name:'Hebei',value:15},
+						{name:'Tianjing',value:15},
+						{name:'Guangxi',value:15},
+						{name:'Tibet',value:15},
+						{name:'Hainan',value:15},
+						{name: 'Nanhaizhudao',value: 15, itemStyle:{ normal:{opacity:0,label:{show:true}}} }
+						]
+				},//19
+				],		
+            };
+
+			myChart2.setOption(option2,true);
+
+        </script>
+</body>
+</html>
