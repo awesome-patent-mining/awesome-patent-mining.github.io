@@ -1,23 +1,17 @@
-﻿---
+---
 layout: page
 title: About me
-cover: false
----
-I am a professor at [iSchool](http://ischool.njust.edu.cn/) of Nanjing University of Science and Technology [(NJUST)](http://english.njust.edu.cn/). I received his PhD degree of Information Science from [Nanjing University](https://www.nju.edu.cn/EN/), China. I have published more than 100 [publications](https://chengzhizhang.github.io/papers/), including JASIST, Aslib JIM, JOI, OIR, SCIM, ACL, NAACL, etc. I [serve](https://chengzhizhang.github.io/service/) as Editorial Board Member and Managing Guest Editor for 9 international journals (Patterns, OIR, TEL, IDD, NLE, JDIS, DIM, DI, etc.) and PC members of several international conferences (ACL, IJCAI, EMNLP, NAACL, AACL, IJCNLP, NLPCC, ASIS&T, JCDL, iConference, ISSI, etc.) in fields of natural language process and scientometrics.
-My research fields include information retrieval, information organization, text mining and nature language processing. Currently, I am focusing on [scientific text mining](https://chengzhizhang.github.io/research/#scientific-text-mining), [knowledge entity extraction and evaluation](https://chengzhizhang.github.io/research/#knowledge-entity-extraction-and-evaluation
-),[social media mining](https://chengzhizhang.github.io/research/#social-media-mining). 
 
-I am also a visiting scholar in the [School of Information Sciences (iSchool)](http://ischool.pitt.edu/) at the [University of Pittsburgh](http://www.pitt.edu/) and in the [Department of Linguistics and Translation](http://lt.cityu.edu.hk/) at the [City University of Hong Kong](https://www.cityu.edu.hk/).
 
-I am the leader of [IR&TM Group](https://chengzhizhang.github.io/collaborators/) at NJUST.
-
- 
-## Recent News
-* In October 2020, a paper has been accepted by Journal of the Association for Information Science and Technology.
-* Call for Paper: Special issue about "Extraction and Evaluation of Knowledge Entities from Scientific Documents” at [JDIS](http://manu47.magtech.com.cn/Jwk3_jdis/EN/news/news1.shtml)(Note: when submit, please put a note “EEKE2020” at the beginning of title).
-* Call for Paper: Special issue about 'Scientific Documents Mining and Applicatons' at [DIM](https://www.editorialmanager.com/dim/default.aspx) (Note: when submit, please put a note “EEKE2020” at the beginning of title).
-* In August 2020, the workshop proceedings of [EEKE2020](https://eeke2020.github.io/) are published now and you can see at [CEUR](http://ceur-ws.org/Vol-2658/).
-* In August 2020, a paper has been accepted by Journal of Informetrics.
+## 基本信息
+* 就职于中国科学技术信息研究所专利统计分析研究室.
+* 副研究员，硕士生导师.
+* 于2014年在中国科学院大学文献情报中心获得管理学博士学位，之前分别在北京理工大学和华北水利水电大学获得计算机软件专业的硕士和本科学位.
+* 研究方向包括专利挖掘、技术管理、机器学习和智慧法律.
+* 在《scientometrics》, 《情报学报》，《武汉大学学报（信息科学版）》等国内外重要学术期刊和ISSI、JCDL、GTM等信息管理主要会议上发表学术论文30余篇，参与撰写出版编著3部，并获得多项软件著作权.
+* 担任《图书情报工作》等多个中文核心期刊的特约审稿专家.
+* 负责国家自然科学青年基金项目“面向专利文本中实体关系抽取的远程监督方法研究（项目编号71403256），并作为技术骨干参与国家重点研发计划项目、国家支撑计划项目、国家自然科学基金项目、中央级公益性科研院所基本科研项目、科技部委托项目、北京市横向课题等20余项研究工作
+* 邮箱：squirrel_d@126.com
 
 
 
