@@ -13,7 +13,7 @@ order:  2
 
 ## 论文
 ### **2020年**
-* **Chen, L.**, Xu, S*., Zhu, L. et al. A deep learning based method for  extracting semantic information from patent documents. Scientometrics  125, 289–312 (2020).  [[doi]](https://doi.org/10.1007/s11192-020-03634-y) [[data]](https://github.com/awesome-patent-mining/TFH_Annotated_Dataset) [[demo]](http://121.36.92.85:8001)
+* **Chen, L.**, Xu, S*., Zhu, L. et al. A deep learning based method for  extracting semantic information from patent documents. Scientometrics  125, 289–312 (2020).  [[doi]](https://doi.org/10.1007/s11192-020-03634-y) [[data]](https://github.com/awesome-patent-mining/TFH_Annotated_Dataset) [[demo]](http://121.36.92.58:8001)
 * **Chen, L\***., Xu, S., Shang, W. et al. What is special about patent information extraction. 1st Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents at the ACM/IEEE JCDL2020. [[slides](https://eeke2020.github.io/slides/Patent%20information%20extraction.pdf)] [[Proceedings]](http://ceur-ws.org/Vol-2658/)
 * 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 2020. (In press)  
 ### **2019 and Before**
