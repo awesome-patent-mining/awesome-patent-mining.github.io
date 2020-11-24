@@ -19,15 +19,15 @@ order:  2
 ### **2019 and Before**
 * **Chen, L\***, Lei, X., Yang, G., et al. "Research on Method of Technological Evolution Analysis Based on HLDA." *Advanced Multimedia and Ubiquitous Engineering*. Springer, Singapore. 321-330 (2017).
 * **Chen, L.\***, Yang, G., Shang, W., Lei, X. P., et al. Research on Multiple Technology Paths Extraction Method Based on Semantics: Take Magnetic Head of Hard Disk Drive as Example. In *ISSI* : 928-937 (2017).
-* Yang, G., **Chen, L.\***, Zhang, J., et al. "A mixture record linkage approach for US patent inventor disambiguation." *Advanced Multimedia and Ubiquitous Engineering*. Springer, Singapore. 331-338 (2017).
+* Yang, G., **Chen, L.\***, Zhang, J., et al. A mixture record linkage approach for US patent inventor disambiguation. Advanced Multimedia and Ubiquitous Engineering. Springer, Singapore. 331-338 (2017).
 * **Chen, L.\***, Shang, W., Yang, G., et al. A topic model integrating patent classification information for patent analysis. *Geomatics and Information Science of Wuhan University*, *41*, 123-126 (2016).
 * **Chen, L.\***, Shang, W., Yang, G., et al. A clustering algorithm for heterogeneous network and its application on patent analysis. *Geomatics and Information Science of Wuhan University*, *41*, 234-238 (2016).
 * 杨冠灿, **陈亮**, 张静, 等. 专利引用关系形成的解释框架:一个指数随机图模型视角[J]. 图书情报工作, 2019(5): 100-109.
 * **陈亮\***, 张海超, 杨冠灿, 等, 利用Knowledge Graph的专利表示方法及其应用, 图书情报工作, 2017, 61(09): 123-129.
 * **陈亮**, 张静, 张海超, 等, 层次主题模型在技术演化分析上的应用研究, 图书情报工作, 2017, 61(05): 103-108.
-* **陈亮***, 面向专利分析的Patent Classification LDA模型, 情报学报, 2016, 35(8): 864~874.
-* **陈亮***, 张静, 杨冠灿, 雷孝平, 基于专利文本的闭频繁项集在技术演化分析中的应用, 图书情报工作, 2016，60(06): 70~76.
-* **陈亮***, 杨冠灿, 张静, 范云满, 面向技术演化分析的多主路径方法研究, 图书情报工作, 2015, 59(10): 124~130.
+* **陈亮**, 面向专利分析的Patent Classification LDA模型, 情报学报, 2016, 35(8): 864~874.
+* **陈亮**, 张静, 杨冠灿, 雷孝平, 基于专利文本的闭频繁项集在技术演化分析中的应用, 图书情报工作, 2016，60(06): 70~76.
+* **陈亮**, 杨冠灿, 张静, 范云满, 面向技术演化分析的多主路径方法研究, 图书情报工作, 2015, 59(10): 124~130.
 * **陈亮**, 张志强, 尚玮姣. 技术融合研究进展分析. 情报杂志, 2013, 32(10): 99-105.
 * **陈亮**, 张志强, 尚玮姣. 基于闭频繁项集挖掘的技术演化研究方法. 图书情报工作, 2013(19):107-111.
 * **陈亮**, 张志强, 尚玮姣. 专利引文分析方法研究进展. 现代图书情报技术, 2013, 29(007):75-81.
