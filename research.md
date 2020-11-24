@@ -25,8 +25,8 @@ order:  4
 
 ##  **技术演化路径分析**
 *  ### **基于语义的多技术路径抽取方法研究** 
-<img src="./scientific_writing_styles/peak.jpg" alt="Algorithm Influence in NLP (1979~2015)" align="left" width="50%"/>
-<img src="./scientific_writing_styles/main_path.jpg" alt="Algorithm Influence in NLP (1979~2015)" align="right" width="50%"/>
+<img src="./scientific_writing_styles/peak.jpg" alt="Algorithm Influence in NLP (1979~2015)" align="left" width="40%"/>
+<img src="./scientific_writing_styles/main_path.jpg" alt="Algorithm Influence in NLP (1979~2015)" align="right" width="60%"/>
 
   作为一种可以直接从专利引文关系网络中提炼出技术演化路径的方法，主路径分析法已经在社会网络分析软件Pajek上得以实现。它方便、快捷，但也存在广阔的扩展空间：主路径在抽取过程中只考虑网络的拓扑属性，但专利本身的语义信息和相连专利的关联信息同样是主路径抽取过程中的重要参考，事实上集成了语义信息和关联信息的主路径可以为我们提供更加全面、合理和反映细粒度技术领域内的技术演化过程的主路径。这也构成了我们在本方向研究的主要内容：将文本内容和引文信息相结合，在提出了一套全新的语义主路径分析框架的基础上，进一步给出候选路径搜索算法和最终路径选择策略上的优化方案。 
 
