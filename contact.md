@@ -12,4 +12,4 @@ order: 5
 squirrel_d [at] 126 [dot] com 
 
 ## Wechat
-![](./assets/img/Wechat.jpg)
+<img src="./assets/img/Wechat.jpg" alt="Algorithm Influence in NLP (1979~2015)" align="middle" width="50%"/>
