@@ -14,6 +14,7 @@ order:  2
 
 ## 论文
 ### **2020年**
+* Xin An, Jinghong Li, Shuo Xu, **Chen, L.**, and Wei Sun. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics.
 * **Chen, L.**, Xu, S*., Zhu, L. et al. A deep learning based method for  extracting semantic information from patent documents. Scientometrics  125, 289–312 (2020).  [[doi]](https://doi.org/10.1007/s11192-020-03634-y) [[dataset download]](https://github.com/awesome-patent-mining/TFH_Annotated_Dataset) [[dataset demo]](http://121.36.92.58:8001)  [[predicted result]](http://121.36.92.58:8002)
 * **Chen, L\***., Xu, S., Shang, W. et al. What is special about patent information extraction. 1st Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents at the ACM/IEEE JCDL2020. [[slides](https://eeke2020.github.io/slides/Patent%20information%20extraction.pdf)] [[Proceedings]](http://ceur-ws.org/Vol-2658/)
 * 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 2020. (In press)  
