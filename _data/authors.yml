@@ -2,8 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # You can change `author1` to your shortname.
 author1:
-  name:              Chengzhi Zhang
-  email:             zhangcz@njust.edu.cn
+  name:              Liang Chen
+  email:             25565853@qq.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -17,7 +17,7 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    github:           chengzhizhang
+    github:           awesome-patent-mining
     # twitter:           there_are_two_
-    ResearchGate:        https://www.researchgate.net/profile/Chengzhi_Zhang4
+    ResearchGate:        https://www.researchgate.net/profile/Liang_Chen18
 
