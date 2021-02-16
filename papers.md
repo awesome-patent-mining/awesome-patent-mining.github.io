@@ -7,17 +7,19 @@ menu:   true
 order:  2
 ---
 ## 著作
-* 独立撰写《机器学习算法与专利知识挖掘》，陈亮, 著. 机器学习算法与专利知识挖掘. 北京: 科学技术文献出版社, 2021(即将出版).
+* 独立撰写《机器学习算法与专利知识挖掘》，北京: 科学技术文献出版社, 2021(in press).
 * 参与撰写《学科信息学与学科知识发现》，负责第十三章"基于异构网络的中小企业潜在合作伙伴发现".  张志强, 胡正银, 文奕, 编. 学科信息学与学科知识发现. 北京: 科学出版社, 2020.
 * 参与撰写《科技大数据: 因你而改变》，负责第四章"语义信息抽取: 计算机理解科技大数据的钥匙".  戴国强, 赵志耘, 袁伟, 编. 科技大数据: 因你而改变. 北京: 科学技术文献出版社, 2019.
 * 参与撰写《专利分析的方法探索与实证研究》，负责第一章"基于专利文献的技术发展主路径和发展阶段研究". 傅俊英, 佟贺丰, 编. 专利分析的方法探索与实证研究. 北京: 科学技术文献出版社, 2016.  
 
 ## 论文
+### **2021年**
+* Xin An, Jinghong Li, Shuo Xu, **Chen, L.**, and Wei Sun. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics  15(2), 101-135(2021).
+* 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 65 (2), 117-125(2021)  
 ### **2020年**
-* Xin An, Jinghong Li, Shuo Xu, **Chen, L.**, and Wei Sun. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics.
 * **Chen, L.**, Xu, S*., Zhu, L. et al. A deep learning based method for  extracting semantic information from patent documents. Scientometrics  125, 289–312 (2020).  [[doi]](https://doi.org/10.1007/s11192-020-03634-y) [[dataset download]](https://github.com/awesome-patent-mining/TFH_Annotated_Dataset) [[dataset demo]](http://121.36.92.58:8001)  [[predicted result]](http://121.36.92.58:8002)
 * **Chen, L\***., Xu, S., Shang, W. et al. What is special about patent information extraction. 1st Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents at the ACM/IEEE JCDL2020. [[slides](https://eeke2020.github.io/slides/Patent%20information%20extraction.pdf)] [[Proceedings]](http://ceur-ws.org/Vol-2658/)
-* 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 2020. (In press)  
+
 ### **2019 and Before**
 * **Chen, L\***, Lei, X., Yang, G., et al. "Research on Method of Technological Evolution Analysis Based on HLDA." *Advanced Multimedia and Ubiquitous Engineering*. Springer, Singapore. 321-330 (2017).
 * **Chen, L.\***, Yang, G., Shang, W., Lei, X. P., et al. Research on Multiple Technology Paths Extraction Method Based on Semantics: Take Magnetic Head of Hard Disk Drive as Example. In *ISSI* : 928-937 (2017).
