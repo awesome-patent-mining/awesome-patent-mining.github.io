@@ -11,7 +11,7 @@ order:  6
 **Fig. 9** The semantic distribution of candidate paths.
 
   To obtain some insights about the sMPA, the main paths in cases of β=0/0.05/1 are presented in Fig. 11, where paths with equal topological weight are merged into one path. And the detailed information of the main paths is provided in Table A2-6 in Appendix section.
-<img src="./main_paths.png" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
+<img src="./main_paths.jpg" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
 **Fig. 11** The detail information of main paths in different sub-fields
 
   
