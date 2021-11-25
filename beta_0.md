@@ -1,5 +1,5 @@
 
-**Table A7**   A list of basic patents appearing along path 1
+**Table A2**   A list of basic patents appearing along path 1
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
