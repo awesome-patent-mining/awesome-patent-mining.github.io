@@ -16,6 +16,7 @@ order:  6
 
 ---
 **The detailed information of the main paths is provided as below:**
+
 [[The detailed information of main paths when β=0](https://awesome-patent-mining.github.io/beta_0/)]
 
 [[The detailed information of main paths when β=0.05](https://awesome-patent-mining.github.io/beta_005/)]
