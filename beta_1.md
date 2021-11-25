@@ -1,9 +1,9 @@
-**Table A2**   A list of basic patents appearing along path 1
+
+**Table A12**   A list of basic patents appearing along path 1
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
 | 1982A3601J | High-temperature battery with thermal insulation - has air cooling maximised due to positioning of inlet and outlet channels in cells of slide-in module |
-| 1982A0535J | High-temp. battery with cylindrical cells - held in springy rings inside insulating case allowing circulation of cooling air and separate renewal |
 | 1984165788 | High temp. storage battery for electric vehicle - has cooling medium distributor plate between storage cells and double walled insulated housing |
 | 1995105768 | Battery securing structure for electric vehicle - has lower inner spacer which has partitions divided into separate compartments in which batteries are disposed, and upper inner spacer member including pressing portions which hold batteries in position |
 | 1995044692 | Electric vehicle traction battery exchange system including special lifter - hoists batteries in compact array with cabling to multipole plug connector in casing supported on underside of vehicle |
@@ -18,9 +18,8 @@
 | 2005495929 | Lead member for secondary battery module useful in industrial instrument or electric cars, connects two adjacent cells and forms single series circuit through electrode terminals of cells |
 | 2009K62394 | Battery system for use in e.g. electric vehicle, severs electrical connection between cells of battery packs locally in response to excessive impact force during over-current or over-temperature conditions |
 | 2009K61707 | Electrochemical storage cell for lithium ion polymer battery system used in e.g. electric vehicle, has protection cover whose half portions are coupled with each other |
-| 2010B38747 | End cover assembly of electrochemical cell of power lithium-ion polymer battery for e.g. electric vehicle, has sealing material positioned to extend beyond upper portion of scabbard and to wrap around scabbard to form protective flange |
 
-**Table A3**   A list of basic patents appearing along path 2
+**Table A13**   A list of basic patents appearing along path 2
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
@@ -40,23 +39,22 @@
 | 2007528035 | Battery management system for use in vehicle, has current sensor for measuring amount of output current of battery, main switch turning on/off electricity provided from battery in response to control signal, and cooling fan |
 | 2009K28998 | Vehicle electrical power system i.e. automotive electrical bus and charging system, controlling method, involves controlling current produced by alternator, where alternator current is equal to vehicle load current |
 
-**Table A4**   A list of basic patents appearing along path 3
+**Table A14**   A list of basic patents appearing along path 3
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
-| 1980M2998C | Regenerative electric motor for battery powered vehicle - produces high back EMF which may be used to charge vehicle batteries in sequence with driving vehicle |
-| 1992123507 | Electric vehicle integrated motor drive and recharge system - including bidirectional DC power source, two voltage-fed inverters, two induction motors and control unit |
-| 1994359526 | Electric vehicle drive system - controls sharing of drive torque between efficient low speed motor and large capacity high speed motor |
-| 1996386561 | Negative electrode for lithium secondary battery for electric automobile, motorbike, etc. - composing at least one cell of secondary battery of carbon material with particles carrying a metal forming alloy with lithium |
-| 1999087192 | Lithium secondary battery for electrical and electronic equipment - uses positive electrode containing manganese content transition metal oxide and negative electrode containing carbon particles carrying metals forming or not forming alloy with lithium |
-| 2000657856 | Long-life lithium secondary battery, e.g. for electric power storage systems and electric vehicles, has lithium-manganese complex oxide as positive electrode active material, and amorphous carbon as negative electrode active material |
-| 2003077667 | Lithium secondary cell for electric car, has positive and negative electrodes made of metallic foil whose edges are joined with predetermined portions of positive/negative electrode collector |
-| 2003852941 | Sealed rechargeable battery for e.g. electric vehicle, has electrode plate group accommodated in a case with liquid electrolyte, with its winding axis vertical relative to the open end of the case |
-| 2006403346 | Closed type battery e.g. nickel hydrogen battery used in electric vehicle, has lower current collection plate welded to battery jar in range outside position corresponding to position below cap at upper portion of cover |
-| 2009J22531 | Secondary battery e.g. lithium ion secondary battery for electric vehicle, has junction portion directly arranged in collector plate to uniformly distribute current to collector plate from electrode plate |
-| 2010A60276 | Lithium ion secondary battery for electric vehicle, has steel shell as cathode, lower side edge of cathode is provided with copper foil, and copper foil is connected with steel shell by metal and/or non-metal conductive adhesive |
+|1993146926|Power source for electric vehicle - uses non-aq. secondary battery using carbon@ material, which can be doped by and de-doped from litium ion, as negative electrode active material|
+|1995282986|Electrical energy storage device making appts. for electric vehicle - has portion of series of rollers contacting winding when winding is of initial diameter and additional rollers contacting winding when winding reaches first intermediate diameter|
+|1996386561|Negative electrode for lithium secondary battery for electric automobile, motorbike, etc. - composing at least one cell of secondary battery of carbon material with particles carrying a metal forming alloy with lithium|
+|1999087192|Lithium secondary battery for electrical and electronic equipment - uses positive electrode containing manganese content transition metal oxide and negative electrode containing carbon particles carrying metals forming or not forming alloy with lithium|
+|2000657856|Long-life lithium secondary battery, e.g. for electric power storage systems and electric vehicles, has lithium-manganese complex oxide as positive electrode active material, and amorphous carbon as negative electrode active material|
+|2003077667|Lithium secondary cell for electric car, has positive and negative electrodes made of metallic foil whose edges are joined with predetermined portions of positive/negative electrode collector|
+|2003852941|Sealed rechargeable battery for e.g. electric vehicle, has electrode plate group accommodated in a case with liquid electrolyte, with its winding axis vertical relative to the open end of the case|
+|2006403346|Closed type battery e.g. nickel hydrogen battery used in electric vehicle, has lower current collection plate welded to battery jar in range outside position corresponding to position below cap at upper portion of cover|
+|2009J22531|Secondary battery e.g. lithium ion secondary battery for electric vehicle, has junction portion directly arranged in collector plate to uniformly distribute current to collector plate from electrode plate|
+|2010A60276|Lithium ion secondary battery for electric vehicle, has steel shell as cathode, lower side edge of cathode is provided with copper foil, and copper foil is connected with steel shell by metal and/or non-metal conductive adhesive|
 
-**Table A5**   A list of basic patents appearing along path 4
+**Table A15**   A list of basic patents appearing along path 4
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
@@ -70,14 +68,18 @@
 | 2006760998 | Battery pack mounting structure mounted on electric vehicle, consists of direct current to direct current converter electrically connected by junction box and harness and provided at downward direction of driver's seat |
 | 2008G34124 | Electrical-storage unit for motor vehicle, has reinforcement sections that are arranged at predetermined interval between electrical-storage cells of electrical-storage module along vertical direction |
 
-**Table A6**   A list of basic patents appearing along path 5 when β=0.05
+**Table A16**   A list of basic patents appearing along path 5
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
-| 1985146363 | Turning speed control for electric vehicle with dual drive motors - automatically slows vehicle according to sharpness of turn and uses field excitation as function of steering angle |
-| 1992150714 | Control system for electric motor vehicle - has right and left wheels driven by motors provided separately |
-| 1994163073 | Motor current control device for electric automobile - has output torque cut commander for motor drive circuit to supply current to motor according to command value or to cut current supply by torque cut command |
-| 1997190915 | Polyphase AC motor control appts used in electric vehicle - has second program which computes torque current command value from fixed exciting current command value and motor torque command value, while torque response is considered to be important |
-| 2002498048 | Torque control method of permanent magnet synchronous motor, involves employing vector control technique to generate electrical control signals for adjusting frequency and magnitude of sinusoidal waveforms |
-| 2007224854 | Alternating current motor driving apparatus for use in vehicle, has current sensor and motor phase provided to estimate motor current so that current detection is made from zero speed to high-speed rotations |
-| 2009F42556 | Current detector unit for motor control device, has three-phase current detecting portion for detecting three-phase current, if judging portion judges that target time point belongs to period during which three-phase current is detected |
+|1974J0644V|Electric vehicle recuperative drive and braking cct. - separately excited motor field controlled by moderator|
+|1983700815|Current regulator for electric vehicle drive - limits switching regulator signal according to percentage displacement of accelerator pedal|
+|1983828134|Motor control system for electric vehicle - has separate armature and field current control circuits and current limiters|
+|1997225651|"Battery monitoring method for electric vehicle parameters such as voltage, temperature etc. - using battery monitors which physically touch and are electrically connected to respective battery modules, and are themselves connected in series loop with central computer via optical communication links"|
+|1998520359|Battery monitor for electric vehicle - deactivates selected switch after charging capacitor by selected battery voltage signal based on which voltage of selected battery is determined|
+|2003566608|Battery monitoring apparatus used in e.g. electric vehicles, monitors change of state of battery events and stores related data in memory|
+|2005777716|Multi-series battery control system for managing secondary battery e.g. lithium battery used in vehicle has control IC having cell monitor IC chip and control IC chip that are paired to control unit battery cell|
+|2006719422|Battery controller for e.g. electric power train, has switch selecting memory groups, and reader/writer writing or reading state information on secondary battery into or from memory group as selected by switch|
+|2007821987|Cell-voltage measurement circuit for battery pack, outputs digital value based on voltage which is inversely converted into lowest electric potential as common reference to measure amount of conversion to each unit battery|
+|2008N20782|Voltage sensor module for a battery pack of e.g. an electric vehicle has a reference voltage generator and a comparator that outputs undervoltage detection signal when voltage of battery cell is equal to or less than preset value|
+|2009G53589|Cell voltage abnormality detector of multi-cell serial battery, has comparison determination circuit which compares monitoring voltage and predetermined reference voltage and determines whether voltage deviates from normal voltage|

@@ -1,9 +1,3 @@
-layout: page
-title:  The detailed information of main paths when β=0
-cover:  false
-menu:   false
-order: 8
-
 
 **Table A7**   A list of basic patents appearing along path 1
 
