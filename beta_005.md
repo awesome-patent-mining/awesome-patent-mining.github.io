@@ -1,4 +1,4 @@
-**Table A2**   A list of basic patents appearing along path 1
+**Table A7**   A list of basic patents appearing along path 1
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
@@ -20,7 +20,7 @@
 | 2009K61707 | Electrochemical storage cell for lithium ion polymer battery system used in e.g. electric vehicle, has protection cover whose half portions are coupled with each other |
 | 2010B38747 | End cover assembly of electrochemical cell of power lithium-ion polymer battery for e.g. electric vehicle, has sealing material positioned to extend beyond upper portion of scabbard and to wrap around scabbard to form protective flange |
 
-**Table A3**   A list of basic patents appearing along path 2
+**Table A8**   A list of basic patents appearing along path 2
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
@@ -40,7 +40,7 @@
 | 2007528035 | Battery management system for use in vehicle, has current sensor for measuring amount of output current of battery, main switch turning on/off electricity provided from battery in response to control signal, and cooling fan |
 | 2009K28998 | Vehicle electrical power system i.e. automotive electrical bus and charging system, controlling method, involves controlling current produced by alternator, where alternator current is equal to vehicle load current |
 
-**Table A4**   A list of basic patents appearing along path 3
+**Table A9**   A list of basic patents appearing along path 3
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
@@ -56,7 +56,7 @@
 | 2009J22531 | Secondary battery e.g. lithium ion secondary battery for electric vehicle, has junction portion directly arranged in collector plate to uniformly distribute current to collector plate from electrode plate |
 | 2010A60276 | Lithium ion secondary battery for electric vehicle, has steel shell as cathode, lower side edge of cathode is provided with copper foil, and copper foil is connected with steel shell by metal and/or non-metal conductive adhesive |
 
-**Table A5**   A list of basic patents appearing along path 4
+**Table A10**   A list of basic patents appearing along path 4
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
@@ -70,7 +70,7 @@
 | 2006760998 | Battery pack mounting structure mounted on electric vehicle, consists of direct current to direct current converter electrically connected by junction box and harness and provided at downward direction of driver's seat |
 | 2008G34124 | Electrical-storage unit for motor vehicle, has reinforcement sections that are arranged at predetermined interval between electrical-storage cells of electrical-storage module along vertical direction |
 
-**Table A6**   A list of basic patents appearing along path 5 when β=0.05
+**Table A11**   A list of basic patents appearing along path 5
 
 | GA         | Title                                                        |
 | ---------- | ------------------------------------------------------------ |
