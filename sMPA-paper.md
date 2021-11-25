@@ -1,17 +1,20 @@
 ---
 layout: page
-title:  项目信息
+title:  Output of sMPA in example citation network
 cover:  false
 menu:   false
 order:  6
 ---
 
-* 国家自然科学基金委员会，面上项目，72074014，科技关联视角下新兴技术弱信号扫描预判方法研究，2021/1-2024/12，在研，**参加**；
-* 科学技术部，国家重点研发计划项目课题，2019YFA0707202，地平线扫描系统，2019/12-2024/11，在研，**参加**；
-* 国家自然科学基金委员会，青年项目，71704169，面向专利文本中实体关系抽取的远程监督方法研究，2018/1-2020/12，在研，**主持**；
-* 科学技术部，国家重点研发计划项目课题，2017YFB1401902，知识产权信息智能采集及深度加工技术研究与应用示范，2017/12-2020/11，在研，**参加**；
-* 科学技术部，国家重点研发计划项目子课题，2016YFC1201702，中国人类遗传样本库信息管理平台建设，2016/07-2018/12，已结题，**参加**；
-* 国家自然科学基金青年项目，71403256，基于指数随机图模型的专利引用关系预测方法研究，2015/01-2017/12，已结题，**参加**。
+  To demonstrate the advantages of the semantic MPA, extensive experiments are conducted on a patent dataset pertaining to lithium-ion battery in electric vehicle. By running DP-BFS algorithm and clustering the resulting candidate paths with their attached documents, the density peak clustering method finds the correct number of clusters and outputs  the center of each cluster as the 1st row  in Fig. 9. And the path(s) with the largest topological weight in each cluster is chosen to represent the developmental trajectory of the resulting cluster, viz. main path(s) as depicted in the 2st row in Fig. 9.
+<img src="./cluster_sem_top_centroid_20211117.png" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
+**Fig. 9** The semantic distribution of candidate paths.
+
+  To obtain some insights about the sMPA, the main paths in cases of β=0/0.05/1 are presented in Fig. 11, where paths with equal topological weight are merged into one path. And the detailed information of the main paths is provided in Table A2-6 in Appendix section.
+<img src="./main_paths.png" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
+**Fig. 11** The detail information of main paths in different sub-fields
+
+  
 
 
 
