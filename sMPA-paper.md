@@ -15,7 +15,7 @@ order:  6
 **Fig. 11** The detail information of main paths in different sub-fields
 
 ---
-**The detailed information of the main paths is provided as below:**
+**The detailed information of the main paths for β=0/0.05/1 is provided as below:**
 
 [[The detailed information of main paths when β=0](https://awesome-patent-mining.github.io/beta_0/)]
 
