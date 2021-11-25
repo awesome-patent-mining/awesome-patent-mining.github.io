@@ -7,18 +7,19 @@ menu:   true
 order:  2
 ---
 ## 著作
-* 独立撰写《机器学习算法与专利知识挖掘》，北京: 科学技术文献出版社, 2021(in press).
+* 独立撰写《机器学习算法与专利知识挖掘》，北京: 科学技术文献出版社. (该书获得2021年度国家科学技术学术著作出版基金支持，预计2022年出版).
 * 参与撰写《学科信息学与学科知识发现》，负责第十三章"基于异构网络的中小企业潜在合作伙伴发现".  张志强, 胡正银, 文奕, 编. 学科信息学与学科知识发现. 北京: 科学出版社, 2020.
 * 参与撰写《科技大数据: 因你而改变》，负责第四章"语义信息抽取: 计算机理解科技大数据的钥匙".  戴国强, 赵志耘, 袁伟, 编. 科技大数据: 因你而改变. 北京: 科学技术文献出版社, 2019.
 * 参与撰写《专利分析的方法探索与实证研究》，负责第一章"基于专利文献的技术发展主路径和发展阶段研究". 傅俊英, 佟贺丰, 编. 专利分析的方法探索与实证研究. 北京: 科学技术文献出版社, 2016.  
 
 ## 论文
 ### **2021年**
-* Xin An, Jinghong Li, Shuo Xu, **Chen, L.**, and Wei Sun. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics  15(2), 101-135(2021).
+* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. [[demo](https://awesome-patent-mining.github.io/sMPA-paper/)]
+* An X., Li, J., Xu S., **Chen, L.**, and Sun W. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics  15(2), 101-135(2021).
 * 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 65 (2), 117-125(2021)  
 ### **2020年**
-* **Chen, L.**, Xu, S*., Zhu, L. et al. A deep learning based method for  extracting semantic information from patent documents. Scientometrics  125, 289–312 (2020).  [[doi]](https://doi.org/10.1007/s11192-020-03634-y) [[dataset download]](https://github.com/awesome-patent-mining/TFH_Annotated_Dataset) [[dataset demo]](http://121.36.92.58:8001)  [[predicted result]](http://121.36.92.58:8002)
-* **Chen, L\***., Xu, S., Shang, W. et al. What is special about patent information extraction. 1st Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents at the ACM/IEEE JCDL2020. [[slides](https://eeke2020.github.io/slides/Patent%20information%20extraction.pdf)] [[Proceedings]](http://ceur-ws.org/Vol-2658/)
+* **Chen, L.**, Xu, S*., Zhu, L. et al. A deep learning based method for  extracting semantic information from patent documents. Scientometrics  125, 289–312 (2020).  [[doi](https://doi.org/10.1007/s11192-020-03634-y)] [[dataset download](https://github.com/awesome-patent-mining/TFH_Annotated_Dataset)] [[dataset demo](http://121.36.92.58:8001)]  [[predicted result](http://121.36.92.58:8002)]
+* **Chen, L\***., Xu, S., Shang, W. et al. What is special about patent information extraction. 1st Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents at the ACM/IEEE JCDL2020. [[slides](https://eeke2020.github.io/slides/Patent%20information%20extraction.pdf)] [[Proceedings](http://ceur-ws.org/Vol-2658/)]
 
 ### **2019 and Before**
 * **Chen, L\***, Lei, X., Yang, G., et al. "Research on Method of Technological Evolution Analysis Based on HLDA." *Advanced Multimedia and Ubiquitous Engineering*. Springer, Singapore. 321-330 (2017).
