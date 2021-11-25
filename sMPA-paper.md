@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Output of sMPA in example citation network
+title:  Experimental results
 cover:  false
 menu:   false
 order:  6
