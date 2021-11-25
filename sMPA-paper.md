@@ -10,10 +10,12 @@ order:  6
 <img src="./cluster_sem_top_centroid_20211117.png" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
 **Fig. 9** The semantic distribution of candidate paths.
 
-  To obtain some insights about the sMPA, the main paths in cases of β=0/0.05/1 are presented in Fig. 11, where paths with equal topological weight are merged into one path. And the detailed information of the main paths is provided in Table A2-6.
+  To obtain some insights about the sMPA, the main paths in cases of β=0/0.05/1 are presented in Fig. 11, where paths with equal topological weight are merged into one path. 
 <img src="./main_paths.jpg" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
 **Fig. 11** The detail information of main paths in different sub-fields
 
+---
+**The detailed information of the main paths is provided as below:**
 [[The detailed information of main paths when β=0](https://awesome-patent-mining.github.io/beta_0/)]
 
 [[The detailed information of main paths when β=0.05](https://awesome-patent-mining.github.io/beta_005/)]
