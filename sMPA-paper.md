@@ -14,12 +14,8 @@ order:  6
 <img src="./main_paths.jpg" alt="Distribution of Syntactic Complexity" align="middle" width="100%"/>
 **Fig. 11** The detail information of main paths in different sub-fields
 
-~~~
 [[The detailed information of main paths when β=0](https://awesome-patent-mining.github.io/beta_0/)]
-~~~
-~~~
+
 [[The detailed information of main paths when β=0.05](https://awesome-patent-mining.github.io/beta_005/)]
-~~~
-~~~
+
 [[The detailed information of main paths when β=1](https://awesome-patent-mining.github.io/beta_1/)]
-~~~
