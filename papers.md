@@ -15,7 +15,8 @@ order:  2
 
 ## 论文
 ### **2021年**
-* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
+* Xu H., Winnink J., Pang H., Wen S., **Chen, L.**. Breakthrough potential of emerging research topics based on citation diffusion features. Journal of Information Science (2021).
+* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories.[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
 * An X., Li, J., Xu S., **Chen, L.**, and Sun W. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics  15(2), 101-135(2021).
 * 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 65 (2), 117-125(2021)  
 ### **2020年**
