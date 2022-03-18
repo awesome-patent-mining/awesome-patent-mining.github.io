@@ -14,9 +14,10 @@ order:  2
 * 参与撰写《专利分析的方法探索与实证研究》，负责第一章"基于专利文献的技术发展主路径和发展阶段研究". 傅俊英, 佟贺丰, 编. 专利分析的方法探索与实证研究. 北京: 科学技术文献出版社, 2016.  
 
 ## 论文
+### **2022年**
+* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. Journal of Informetrics (2022)[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
 ### **2021年**
 * Xu H., Winnink J., Pang H., Wen S., **Chen, L.**. Breakthrough potential of emerging research topics based on citation diffusion features. Journal of Information Science (2021).
-* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories.[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
 * An X., Li, J., Xu S., **Chen, L.**, and Sun W. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics  15(2), 101-135(2021).
 * 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 65 (2), 117-125(2021)  
 ### **2020年**
