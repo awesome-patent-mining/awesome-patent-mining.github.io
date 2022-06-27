@@ -9,7 +9,7 @@ order: 5
 北京市复兴路15号中国科学技术信息研究所119房间, 100038
 
 ## Email
-squirrel_d [at] 126 [dot] com 
+25565853 [at] qq [dot] com 
 
 ## Wechat
 <img src="./wechat.jpg" alt="Algorithm Influence in NLP (1979~2015)" align="middle" width="30%"/>
