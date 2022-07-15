@@ -19,7 +19,7 @@ order:  2
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Yang G, Xu H.  A Deep Learning based Method Benefiting from Characteristics of Patents for Semantic Relation Classification. Journal of Informetrics, 16(3):101312 (2022). [[code](https://github.com/awesome-patent-mining/BiGRU-HAN-GCN)]
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. Journal of Informetrics, 16(2):101281 (2022)[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
 ### **2021年**
-* Xu H., Winnink J., Pang H., Wen S., **Chen, L.**. Breakthrough potential of emerging research topics based on citation diffusion features. Journal of Information Science (2021).
+* Xu H., Winnink J., Pang H., Wen S., **Chen, L.**. Breakthrough potential of emerging research topics based on citation diffusion features. Journal of Information Science (2021), https://doi.org/10.1177/01655515211061219
 * An X., Li, J., Xu S., **Chen, L.**, and Sun W. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics, 15(2), 101-135(2021).
 * 郭诗琪，贠强\*，**陈亮**，等. 专利无效对比文件判定方法研究, 图书情报工作, 65 (2), 117-125(2021)  
 ### **2020年**
