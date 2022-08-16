@@ -16,6 +16,9 @@ order:  2
 
 ## 论文
 ### **2022年**
+* **陈亮**, 陈利利, 许海云, 桂婕, 尚玮姣, 牟琳. 一种改进的语义主路径分析方法. 中国情报学年会(2022)
+* **陈亮**, 陈利利, 桂婕, 魏超, 许海云, 尚玮姣. 利用技术分类号辅助的专利实体抽取方法研究. 中国情报学年会(2022)
+* **陈亮**, 师英昭, 曹燕, 桂婕, 屈宝强, 牟琳. 利用图嵌入特征提升的专利无效对比文件检索方法研究. 天府论坛(2022)
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Yang G, Xu H.  A Deep Learning based Method Benefiting from Characteristics of Patents for Semantic Relation Classification. Journal of Informetrics, 16(3):101312 (2022). [[code](https://github.com/awesome-patent-mining/BiGRU-HAN-GCN)]
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. Journal of Informetrics, 16(2):101281 (2022)[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
 ### **2021年**
