@@ -16,7 +16,7 @@ order:  2
 
 ## 论文
 ### **2022年**
-* **陈亮**, 陈利利, 许海云, 桂婕, 尚玮姣, 牟琳. 一种改进的语义主路径分析方法. 中国情报学年会(2022，大会优秀论文)
+* **陈亮**, 陈利利, 许海云, 桂婕, 尚玮姣, 牟琳. 一种改进的语义主路径分析方法. 中国情报学年会(2022，大会优秀论文，情报学报拟录用)
 * **陈亮**, 陈利利, 桂婕, 魏超, 许海云, 尚玮姣. 利用技术分类号辅助的专利实体抽取方法研究. 中国情报学年会(2022)
 * **陈亮**, 陈利利, 曹燕, 许海云，魏超, 尚玮姣, 贤信. 专利挖掘研究进展综述. 情报学报(录用)
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Yang G, Xu H.  A Deep Learning based Method Benefiting from Characteristics of Patents for Semantic Relation Classification. Journal of Informetrics, 16(3):101312 (2022). [[code](https://github.com/awesome-patent-mining/BiGRU-HAN-GCN)]
