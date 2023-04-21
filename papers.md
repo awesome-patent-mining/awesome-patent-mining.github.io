@@ -7,21 +7,23 @@ menu:   true
 order:  2
 ---
 ## 著作
-* 独立撰写《机器学习与专利知识》，北京: 科学技术文献出版社. (该书获得2021年度国家科学技术学术著作出版基金支持，2023年出版).
+* 撰写《机器学习与专利知识》，北京: 科学技术文献出版社. (该书获得2021年度国家科学技术学术著作出版基金支持，2023年出版).
 * 参与撰写《面向领域知识发现的学科信息学理论与应用研究》，负责第十二章"专利大数据知识发现方法研究前沿进展".  张志强, 编. 北京: 科学出版社, (2023年出版).
+* 参与撰写《面向深度分析的专利大数据集成与深加工研究》. 张静，雷孝平，陈亮，著. 北京：科学技术文献出版社, 2023
 * 参与撰写《学科信息学与学科知识发现》，负责第十三章"基于异构网络的中小企业潜在合作伙伴发现".  张志强, 胡正银, 文奕, 编. 北京: 科学出版社, 2020.
 * 参与撰写《科技大数据: 因你而改变》，负责第四章"语义信息抽取: 计算机理解科技大数据的钥匙".  戴国强, 赵志耘, 袁伟, 编. 北京: 科学技术文献出版社, 2019.
 * 参与撰写《应对全球气候变化关键技术专利分析》，负责该书的基础数据支持.  佟贺丰, 傅俊英, 编. 北京: 科学技术文献出版社, 2018.
 * 参与撰写《专利分析的方法探索与实证研究》，负责第一章"基于专利文献的技术发展主路径和发展阶段研究". 傅俊英, 佟贺丰, 编. 北京: 科学技术文献出版社, 2016. 
 
 ## 论文
+### **2023年**
+* 桂婕, **陈亮**, 于池. 基于专利的新型储能技术态势分析. [[实验结果](https://awesome-patent-mining.github.io/energyStorage-paper/)]
 ### **2022年**
 * **陈亮**, 陈利利, 许海云, 桂婕, 尚玮姣, 牟琳. 一种改进的语义主路径分析方法. 中国情报学年会(2022，大会优秀论文，情报学报拟录用)
 * **陈亮**, 陈利利, 桂婕, 魏超, 许海云, 尚玮姣. 利用技术分类号辅助的专利实体抽取方法研究. 中国情报学年会(2022)
-* **陈亮**, 陈利利, 曹燕, 许海云，魏超, 尚玮姣, 贤信. 专利挖掘研究进展综述. 情报学报(录用)
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Yang G, Xu H.  A Deep Learning based Method Benefiting from Characteristics of Patents for Semantic Relation Classification. Journal of Informetrics, 16(3):101312 (2022). [[code](https://github.com/awesome-patent-mining/BiGRU-HAN-GCN)]
 * **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. Journal of Informetrics, 16(2):101281 (2022)[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
-* 许海云,王超,徐硕,**陈亮**, 杨冠灿, 朱礼军. 颠覆性技术的科学-技术-产业互动模式识别与分析. 情报学报(录用)
+* 许海云,王超,**陈亮**, 徐硕, 杨冠灿, 朱礼军. 颠覆性技术的科学-技术-产业互动模式识别与分析. 情报学报(录用)
 ### **2021年**
 * Xu H., Winnink J., Pang H., Wen S., **Chen, L.**. Breakthrough potential of emerging research topics based on citation diffusion features. Journal of Information Science (2021), https://doi.org/10.1177/01655515211061219
 * An X., Li, J., Xu S., **Chen, L.**, and Sun W. An Improved Patent Similarity Measurement based on Entities and Semantic Relations. Journal of Informetrics, 15(2), 101-135(2021).
