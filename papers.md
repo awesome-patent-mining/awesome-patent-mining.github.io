@@ -17,24 +17,27 @@ order:  2
 
 ## 论文
 ### **2024年**
-* **陈亮**, 余池, 尚玮姣, 许海云, 吕世炅, 陈利利. 基于密度聚类算法改进的语义主路径分析方法研究. 情报学报，2024，43(03)：287-301
-* **陈亮**,  尚玮姣，余池，牟琳, 夏春姊,葛川. 利用技术分类号辅助的专利实体抽取方法研究. 知识管理论坛(录用)
-* **陈亮**, 陈利利,许海云,魏超,尚玮姣,苏娜. 国内外专利挖掘研究进展与前瞻. 图书情报工作,  2024, 68(2): 110-133. [[长期更新](https://awesome-patent-mining.github.io/PatentMiningSurvey-paper/)]
+* **陈亮**, 余池, 尚玮姣, 许海云, 吕世炅, 陈利利*. 基于密度聚类算法改进的语义主路径分析方法研究. 情报学报，2024，43(03)：287-301
+* **陈亮**,  尚玮姣，余池，牟琳, 夏春姊,葛川*. 利用技术分类号辅助的专利实体抽取方法研究. 知识管理论坛，2024，9(4)：1-15
+* **陈亮**, 陈利利,许海云,魏超,尚玮姣*,苏娜. 国内外专利挖掘研究进展与前瞻. 图书情报工作,  2024, 68(2): 110-133. [[长期更新](https://awesome-patent-mining.github.io/PatentMiningSurvey-paper/)]
+* Shuo Xu, Yuefu Zhang, **Liang Chen***, Xin An, Hong Wang. Is Metadata of Articles about COVID-19 enough for Multi-label Topic Classification Task? Database（Accepted）
+* 张慧玲，许海云，刘春江，**陈亮**，王超，王海燕. 科技创新弱信号早期感知方法探索与前瞻. 情报学报(录用)
 * 邢晓昭,苑朋彬,**陈亮**,任亮,余池. 面向技术识别的专利实体抽取——以类脑智能领域为例.情报杂志,2024(06):126-133+144
 * 周海晨,章成志,胡志刚,徐硕,毛进,**陈亮**.大模型时代下全文计量分析的应用与思考——2023全文本文献计量分析学术沙龙综述[J].信息资源管理学报,2024,14(02):162-169. 
+* 许海云，龚兵营，杨俊浩，胡晓阳，王超，**陈亮**.新兴研究主题识别方法研究进展与前瞻.图书情报工作(录用)
 ### **2023年**
 * 桂婕, **陈亮**, 于池. 基于专利视角的新型储能技术创新发展态势分析. 中国科技资源导刊, 2023, 55(4): 100-110. [[实验结果](https://awesome-patent-mining.github.io/energyStorage-paper/)]
 * 许海云, 王超, **陈亮**, 徐硕, 杨冠灿, 朱礼军. 颠覆性技术的科学-技术-产业互动模式识别与分析. 情报学报, 2023, 42(7): 816-831. 
 * 余池, **陈亮**. 基于知识实体的细粒度主路径分析方法研究. 中国科技信息资源管理与服务年会(2023，大会优秀论文)
 * Guancan Yang, Guoxuan Lu, Shuo Xu, **Liang Chen**, Yuxin Wen. Which type of Dynamic indicators should be preferered to predict patent commercial potential? Technological Forecasting & Social Change, 2023, (193): 122637. 
+* 邢晓昭,**陈亮**,梁琴琴. 融合多元方法的颠覆性技术识别——以类脑智能领域为例.科技管理研究,2023(15):191-199
 * 张慧玲,许海云,王超,**陈亮**,李姝影,杨俊浩. 弱信号环境下情报感知方法框架研究. 情报理论与实践, 2023, 46(11):9-19 .
 * 王超,许海云,齐砚翠,武华维,**陈亮**. 基于动态结构熵的颠覆性技术知识扩散特征识别研究. 图书情报工作,2023 ,67 (24): 54-71 
-* 邢晓昭,**陈亮**,梁琴琴. 融合多元方法的颠覆性技术识别——以类脑智能领域为例.科技管理研究,2023(15):191-199
 ### **2022年**
 * **陈亮**, 陈利利, 许海云, 桂婕, 尚玮姣, 牟琳. 一种改进的语义主路径分析方法. 中国情报学年会(2022，大会优秀论文)
 * **陈亮**, 陈利利, 桂婕, 魏超, 许海云, 尚玮姣. 利用技术分类号辅助的专利实体抽取方法研究. 中国情报学年会(2022)
-* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Yang G, Xu H.  A Deep Learning based Method Benefiting from Characteristics of Patents for Semantic Relation Classification. Journal of Informetrics, 16(3):101312 (2022). [[code](https://github.com/awesome-patent-mining/BiGRU-HAN-GCN)]
-* **Chen, L.**, Xu, S., Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. Journal of Informetrics, 16(2):101281 (2022)[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
+* **Chen, L.**, Xu, S.*, Zhu, L., Zhang, J., Yang G, Xu H.  A Deep Learning based Method Benefiting from Characteristics of Patents for Semantic Relation Classification. Journal of Informetrics, 16(3):101312 (2022). [[code](https://github.com/awesome-patent-mining/BiGRU-HAN-GCN)]
+* **Chen, L.**, Xu, S.*, Zhu, L., Zhang, J., Xu H., Yang G.  A Semantic Main Path Analysis Method to Identify Multiple Developmental Trajectories. Journal of Informetrics, 16(2):101281 (2022)[[code](https://github.com/awesome-patent-mining/sMPA-documentation)] [[experimental results](https://awesome-patent-mining.github.io/sMPA-paper/)]
 * 许海云,王超,**陈亮**, 徐硕, 杨冠灿, 朱礼军. 颠覆性技术的科学-技术-产业互动模式识别与分析. 情报学报(录用)
 ### **2021年**
 * Xu H., Winnink J., Pang H., Wen S., **Chen, L.**. Breakthrough potential of emerging research topics based on citation diffusion features. Journal of Information Science (2021), https://doi.org/10.1177/01655515211061219
