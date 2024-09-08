@@ -26,7 +26,7 @@ order:  2
 * 周海晨,章成志,胡志刚,徐硕,毛进,**陈亮**.大模型时代下全文计量分析的应用与思考——2023全文本文献计量分析学术沙龙综述[J].信息资源管理学报,2024,14(02):162-169. 
 * 许海云，龚兵营，杨俊浩，胡晓阳，王超，**陈亮**.新兴研究主题识别方法研究进展与前瞻.图书情报工作(录用)
 ### **2023年**
-* 桂婕, **陈亮**, 于池. 基于专利视角的新型储能技术创新发展态势分析. 中国科技资源导刊, 2023, 55(4): 100-110. [[实验结果](https://awesome-patent-mining.github.io/energyStorage-paper/)]
+* 桂婕, **陈亮***, 余池. 基于专利视角的新型储能技术创新发展态势分析. 中国科技资源导刊, 2023, 55(4): 100-110. [[实验结果](https://awesome-patent-mining.github.io/energyStorage-paper/)]
 * 许海云, 王超, **陈亮**, 徐硕, 杨冠灿, 朱礼军. 颠覆性技术的科学-技术-产业互动模式识别与分析. 情报学报, 2023, 42(7): 816-831. 
 * 余池, **陈亮**. 基于知识实体的细粒度主路径分析方法研究. 中国科技信息资源管理与服务年会(2023，大会优秀论文)
 * Guancan Yang, Guoxuan Lu, Shuo Xu, **Liang Chen**, Yuxin Wen. Which type of Dynamic indicators should be preferered to predict patent commercial potential? Technological Forecasting & Social Change, 2023, (193): 122637. 
