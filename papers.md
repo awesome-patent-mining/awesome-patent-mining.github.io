@@ -17,11 +17,13 @@ order:  2
 
 ## 论文
 ### **2024年**
+* 余池，**陈亮**,  许海云, 牟琳，夏春姊，贤信. 基于大语言模型的专利命名实体识别方法研究. 数据分析与知识发现(录用)
+* Chi Yu, Weijiao Shang, Xiaozhao Xing, Haiyun Xu, **Liang Chen***. Proceedings of 2023 China Science and Technology Information Resource Management and Service Annual Conference (COINFO 2023): 105-122
 * **陈亮**, 余池, 尚玮姣, 许海云, 吕世炅, 陈利利*. 基于密度聚类算法改进的语义主路径分析方法研究. 情报学报，2024，43(03)：287-301
 * **陈亮**,  尚玮姣，余池，牟琳, 夏春姊,葛川*. 利用技术分类号辅助的专利实体抽取方法研究. 知识管理论坛，2024，9(4)：1-15
 * **陈亮**, 陈利利,许海云,魏超,尚玮姣*,苏娜. 国内外专利挖掘研究进展与前瞻. 图书情报工作,  2024, 68(2): 110-133. [[长期更新](https://awesome-patent-mining.github.io/PatentMiningSurvey-paper/)]
-* Shuo Xu, Yuefu Zhang, **Liang Chen***, Xin An, Hong Wang. Is Metadata of Articles about COVID-19 enough for Multi-label Topic Classification Task? Database（Accepted）
-* 张慧玲，许海云，刘春江，**陈亮**，王超，王海燕. 科技创新弱信号早期感知方法探索与前瞻. 情报学报(录用)
+* Shuo Xu, Yuefu Zhang, **Liang Chen***, Xin An, Hong Wang. Is Metadata of Articles about COVID-19 enough for Multi-label Topic Classification Task? Database, 2024: baae106.
+* 张慧玲，许海云，刘春江，**陈亮**，王超，王海燕. 科技创新弱信号早期感知方法探索与前瞻. 情报学报, 2024, 43(10): 1129-1141
 * 邢晓昭,苑朋彬,**陈亮**,任亮,余池. 面向技术识别的专利实体抽取——以类脑智能领域为例.情报杂志,2024(06):126-133+144
 * 周海晨,章成志,胡志刚,徐硕,毛进,**陈亮**.大模型时代下全文计量分析的应用与思考——2023全文本文献计量分析学术沙龙综述[J].信息资源管理学报,2024,14(02):162-169. 
 * 许海云，龚兵营，杨俊浩，胡晓阳，王超，**陈亮**.新兴研究主题识别方法研究进展与前瞻.图书情报工作(录用)
